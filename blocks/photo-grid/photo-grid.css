@@ -21,13 +21,8 @@
 
 @media screen and (max-width: 320px) {
   .photo-grid {
+    grid-template-columns: repeat(auto-fit, minmax(248px, 1fr));
     max-width: 90%;
     gap: 12px;
-  }
-}
-
-@media screen and (max-width: 319px) {
-  .photo-grid {
-    grid-template-columns: repeat(auto-fit, minmax(248px, 1fr));
   }
 }

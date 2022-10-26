@@ -7,14 +7,9 @@
 
 @media screen and (max-width: 768px) {
   .place__title {
+    margin-left: 24px;
     font-size: 42px;
     line-height: 46px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .place__title {
-    margin-left: 24px;
   }
 }
 
