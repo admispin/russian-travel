@@ -3,8 +3,10 @@
   grid-row: 2/5;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .place__image {
     grid-row: auto;
+    width: 100vw;
+    margin: 0 -16px;
   }
 }
